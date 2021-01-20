@@ -38,9 +38,6 @@ body::-webkit-scrollbar-thumb {
 	color: #000;
 }
 
-.caja-porfafolio {
-	padding-top: 500px;
-}
 /* Estilos menu index */
 .navbar {
 	background-color: #ffffff;
@@ -56,19 +53,12 @@ body::-webkit-scrollbar-thumb {
 	border-bottom: 2px solid var(--color-primario) ;
 }
  
-.navbar-brand {
-	color: #1a1a1a;
-}
-.navbar-brand:hover {
-	color: #1a1a1a;
-}
 .nav-link {
 	color: #1a1a1a;
+	display: inline-block;
 }
 /* Estilos menu hamburguesa dispositivos moviles */
-.nav-link:hover { 
-	color: #1a1a1a; 
-}
+
 .logo {
 	max-width: 30px;
 }
@@ -80,9 +70,9 @@ body::-webkit-scrollbar-thumb {
 #hero {
 	background: fixed no-repeat;
 	background-size: cover;
-	background-position:0,0;
+	background-position: 0,0;
 }
-.texto-2{
+.texto-2 {
 	font-family: 'Lato';
 	font-size: 20px;
 	line-height: 1.8;
@@ -96,7 +86,6 @@ body::-webkit-scrollbar-thumb {
 	background-repeat: no-repeat;
 	background-position: center 0;
 	background-size: cover;
-	padding-top: 80px;
 	min-height: 100vh;
 	color: #000;
 	transition: 2s;
@@ -105,11 +94,7 @@ body::-webkit-scrollbar-thumb {
 	font-family: 'Lato';
 	font-size: 20px;
 }
-.content-center {
-	max-width: 800px;
-	margin: 0 auto 60px auto;
-	text-align: center;
-}
+
 .btn-outline-blanco {
 	color: #ffffff;
 	border-color: #ffffff;
@@ -128,10 +113,6 @@ body::-webkit-scrollbar-thumb {
 */
 
 /* Estilos porftafolio */
-#portafolio {
-	padding: 20px 0; transition: 2s;
-}
-
 
 @media (max-width: 767px) {
 	.img-portafolio {
@@ -141,22 +122,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* Mensaje */ 
-#mensaje{
-	background-image: url('../img/banner.png');
-	background-size: cover;
-	padding-top: 40px;
-	min-height: 250px;
-	color: #ffffff;
-}
 #mensaje img {
 	max-width: 120px;
 	padding: 20px;
 }
 
-
-.link-menu:hover {
-	background: #000000;
-}
 
 .cartas-galeria img {
 	border-radius: 20px;
